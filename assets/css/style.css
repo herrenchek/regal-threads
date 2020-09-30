@@ -69,6 +69,18 @@ html, body {
     border: none;
 }
 
+figure {
+    margin: 0;
+}
+
+#fixed {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
