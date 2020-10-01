@@ -19,7 +19,7 @@ html, body {
 }
 
 .nav-link {
-    font-size: 1.1em !important;
+    font-size: 1em !important;
 }
 
 .carousel-inner video {
@@ -47,6 +47,16 @@ html, body {
 
 .btn-primary:hover {
     background-color: #563d7c;
+}
+
+.jumbotron {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.jumbotron h2 {
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 .welcome {
