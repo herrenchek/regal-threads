@@ -89,11 +89,11 @@ figure {
 }
 
 #fixed {
-    height: 600px;
-    background-repeat: no-repeat;
+    min-height: 600px;
+    position: relative;
     background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover, 150%;
 }
 
 li {
