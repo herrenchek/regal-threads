@@ -96,6 +96,15 @@ figure {
     background-size: cover;
 }
 
+li {
+    list-style-type: none;
+}
+
+li:before {
+    content: '~';
+    padding-right: 8px;
+}
+
 footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
