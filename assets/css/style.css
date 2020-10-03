@@ -96,11 +96,11 @@ figure {
     background-size: cover, 150%;
 }
 
-li {
+.list li {
     list-style-type: none;
 }
 
-li:before {
+.list li:before {
     content: '~';
     padding-right: 8px;
 }
@@ -171,9 +171,6 @@ hr.socket {
     .carousel-caption h3 {
         font-size: 90%;
     }
-    /* .carousel-indicators {
-        display: none;
-    } */
     .display-4 {
         font-size: 160%;
     }
