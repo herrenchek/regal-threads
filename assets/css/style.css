@@ -112,6 +112,7 @@ figure {
 
 i {
     font-size: 18px;
+    padding-right: 8px;
 }
 
 footer {
@@ -161,9 +162,6 @@ hr.socket {
         font-size: 140%;
         font-weight: 400;
         padding-bottom: 0.2rem;
-    }
-    .carousel-caption .btn {
-        font-size: 95%;
     }
     .display-4 {
         font-size: 200%;
