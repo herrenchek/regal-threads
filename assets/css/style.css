@@ -110,6 +110,11 @@ figure {
     padding-right: 8px;
 }
 
+.hello {
+    width: 75%;
+    margin: 0 auto;
+}
+
 i {
     font-size: 18px;
     padding-right: 8px;
