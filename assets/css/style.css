@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .carousel-caption {
+    color: #7F305C;
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
@@ -118,6 +119,14 @@ figure {
 i {
     font-size: 18px;
     padding-right: 8px;
+}
+
+.purple {
+    background-color: #7F305C;
+}
+
+.purpler {
+    background-color: #592344;
 }
 
 footer {
