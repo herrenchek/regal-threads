@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5 {
     width: 75%;
     margin: 0 auto;
     padding-top: 2rem;
+    line-height: 1.5;
 }
 
 .welcome hr {
@@ -94,6 +95,7 @@ h1, h2, h3, h4, h5 {
 
 .card {
     border: none;
+    line-height: 1.46;
 }
 
 figure {
@@ -136,10 +138,15 @@ i {
 
 .purple {
     background-color: #7F305C;
+    color: #fff;
 }
 
 .purpler {
     background-color: #592344;
+}
+
+.col-12 a {
+    color: #fff;
 }
 
 footer {
