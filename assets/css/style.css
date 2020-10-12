@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400&display=swap');
+/* Colors
+#592344
+#7F305C
+*/
+
 html, body {
     height: 100%;
     width: 100%;
@@ -33,10 +38,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .carousel-caption {
-    color: #7F305C;
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
+}
+
+.carousel-caption h1 {
+    color: #7F305C;
 }
 
 .carousel-caption h3 {
@@ -53,9 +61,14 @@ h1, h2, h3, h4, h5 {
     background-color: #563d7c;
 } */
 
+.container {
+    max-width: 1275px;
+}
+
 .jumbotron {
     width: 75%;
     margin: 0 auto;
+    background-color: rgba(127, 48, 92, 0.8);
 }
 
 .jumbotron h2 {
