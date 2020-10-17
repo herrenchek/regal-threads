@@ -19,6 +19,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Sansita Swashed', cursive;
 }
 
+.img-fluid {
+    display: block;
+    margin: 0 auto;
+}
+
 .header {
     padding-bottom: 1rem;
 }
@@ -71,6 +76,10 @@ h1, h2, h3, h4, h5 {
     max-width: 1275px;
 }
 
+/******* 
+Jumbotron 
+********/
+
 .jumbotron {
     margin: 0 auto;
     width: 75%;
@@ -81,7 +90,7 @@ h1, h2, h3, h4, h5 {
 
 .jumbotron h2 {
     text-align: center;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .welcome {
